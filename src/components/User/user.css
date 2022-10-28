@@ -92,3 +92,21 @@ button {
     transform: translateY(0px);
   }
 }
+@media only screen and (max-width: 700px) {
+  .card_container {
+    display: grid;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    grid-template-columns: 60%;
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 40px 0;
+  }
+  .pagination_con {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+    gap: 5px;
+    /* border: 1px solid black; */
+    padding: 20px;
+  }
+}
